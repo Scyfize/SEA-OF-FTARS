@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Rostley PERSONAL USE ONLY';
+    src: url(../css/Rostley_PERSONAL_USE_ONLY.otf);
+}
+
+header{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100%-20px);
+    background: #0F0F0F;
+    height: 108px;
+    align-items: center;
+    padding-inline: 10px;
+
+}
+
+
+#logo{
+
+    font-family: 'Rostley PERSONAL USE ONLY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #00B2EA;
+    text-decoration:none;
+}
+
+
+.navbar-text{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+
+    color: #FFFFFF;
+
+}
+
+.left-navbar{
+    display:flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.right-navbar{
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+
+#profile-picture{
+    background: #D9D9D9;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+}
+
+.fanart-bg{
+    background-image: url(../css/World-1.png);
+    width: 100%;
+    height: 2923px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.submit-box{
+    width: 976.62px;
+    height: 542px;
+    margin-top: 10vh;
+    background: linear-gradient(180.37deg, #030822 0.32%, rgba(3, 8, 34, 0) 856%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+    margin-bottom: 152px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.submit-title{
+    position: relative;
+    width: 300px;
+    height: 120px;
+
+    font-family: 'Rostley PERSONAL USE ONLY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    margin-bottom: 1.25vh;
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.discord{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#discord-image{
+    width: 75%;
+    height: auto;
+}
+
+.submit-sub{
+    width: 70%;
+    height: auto;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 5%;
+    color: #FFFFFF;
+
+}
+
+.box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.box-1-left{
+    width: 447px;
+    height: 568px;
+    margin-right: 8vh;
+    background: linear-gradient(180deg, #030822 0%, rgba(3, 8, 34, 0) 1063.91%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box-1-right{
+    width: 447px;
+    height: 568px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, #030822 0%, rgba(3, 8, 34, 0) 1063.91%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+
+}
+
+#box-art{
+   
+    width: 292px;
+    height: 429px;
+
+
+    background: url(2022-01-22-Valere-by-2022-01-22-Valere-by-Luke-Fon-Fabre.jpg);
+}
+
+.box-1-text{
+    width: 100%;
+    height: auto;
+    margin-top: 2vh;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.footer-bg{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: 208px;
+    background: #0F0F0F;
+}
+
+
+
+#footer-title{
+    position: absolute;
+    font-family: 'Rostley PERSONAL USE ONLY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    padding-top: 37px;
+
+    color: #00B2EA;
+}
+
+#footer-subtitle{
+    position: absolute;
+ 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    padding-top: 115px;
+    padding-bottom: 24;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

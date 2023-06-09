@@ -10,6 +10,7 @@
 }
 
 header{
+    position: sticky;
     display: flex;
     justify-content: space-between;
     width: calc(100%-20px);
@@ -45,7 +46,7 @@ header{
 .left-navbar{
     display:flex;
     width: 50%;
-   justify-content: space-between;
+    justify-content: space-between;
     align-items:center;
 }
 
@@ -84,10 +85,8 @@ header{
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
-/* identical to box height */
 
-
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 #title{
@@ -145,15 +144,37 @@ color: #FFFFFF;
     font-weight: 700;
     font-size: 35px;
     line-height: 41px;
-    /* identical to box height */
-
-
+    text-decoration: none;
     color: #FFFFFF;
 
 }
 
-.trailer-box{
+.install-text{
     position: absolute;
+    width: 445px;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    color: #FFFFFF;
+
+}
+
+#rectangle-big{
+    position: absolute;
+    width: 704.79px;
+    height: 165.83px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #00B2EA;
+}
+
+.trailer-box{
+    position: relative;
     width: 100%;
     height: 346px;
     display:flex;
@@ -179,3 +200,156 @@ color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
+
+.trailer-content{
+    background-image: url(../css/Sea\ of\ Stars\ _\ Simship\ +\ Release\ Date\ Trailer\ 0-32\ screenshot.png);
+    width: 100%;
+    height: 867px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#trailer-video{
+
+    width: 1280px;
+    height: 700px; 
+}
+
+
+.features-box{
+    position: relative;
+    width: 100%;
+    height: 346px;
+    display:flex;
+    justify-content: center;
+    
+    
+    background: #0F0F0F;
+}
+
+.features-text{
+    position: relative;
+    width: 504px;
+    height: 160px;
+    padding-top: 95px;
+
+    font-family: 'Rostley PERSONAL USE ONLY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+
+    color: #00B2EA;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.features-content{
+    background-image: url(../css/Traversal-2.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4079px;
+    /* padding-top: 57px; */
+    background-size: cover,cover;
+    background-repeat: no-repeat;
+    background-position: center,top;
+    flex-direction: column;
+    
+}
+
+.rect-a{
+    width: 1346px;
+    height: 747px;
+    background: linear-gradient(180.37deg, #030822 0.32%, rgba(3, 8, 34, 0) 856%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+
+}
+
+
+.right-rect-a{
+    padding-right: 6.25vw;
+}
+
+.rect-a-title{
+    /* width: 433px;
+    height: 160px;
+    display: flex;
+    justify-content: end;
+    position: absolute; */
+    
+    /* padding-top: 125px; */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.rect-a-subtitle{
+    /* width: 526px;
+    height: 140px; */
+    font-family: 'Roboto';
+    /* padding-right: 32px; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 10vh;
+    color: #FFFFFF;
+}
+
+.features-image{
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.footer-bg{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: 208px;
+    background: #0F0F0F;
+}
+
+
+
+#footer-title{
+    position: absolute;
+    font-family: 'Rostley PERSONAL USE ONLY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    padding-top: 37px;
+
+    color: #00B2EA;
+}
+
+#footer-subtitle{
+    position: absolute;
+ 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    padding-top: 115px;
+    padding-bottom: 24;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
