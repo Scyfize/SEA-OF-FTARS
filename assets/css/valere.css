@@ -69,7 +69,7 @@ header{
 .valere-bg{
     position: absolute;
     width: 100%;
-    height: 916px;
+    height: auto;
     background-image: url(../css/valbg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -124,14 +124,26 @@ header{
 }
 
 .upright{
-    transform: translateX(-2vw) translateY(-45vh);
+    transform: translateX(15vw) translateY(-40vh);
     padding-left: 9vw;
     padding-top: 6vh;
+    margin-right:10vw;
 }
 
 .upright img{
-    width: 125px;
+    width: 6.510416666666667vw;
     
+}
+
+.val-down{
+    transform: translateX(1vw) translateY(-25vh);
+    margin-right: 10vw;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+
+    color: #FFFFFF;
 }
 
 #zale{
@@ -143,7 +155,8 @@ header{
 }
 
 .kotak{
-    width: 111px;
+    width: 5.78vw;
+    height: 11.45vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,8 +165,8 @@ header{
 }
 
 .kotak2{
-    width: 111px;
-    height: 111px;
+    width: 5.78vw;
+    height: 11.45vh;
     margin-top: 7vh;
     display: flex;
     justify-content: center;
@@ -162,8 +175,8 @@ header{
 }
 
 .kotak3{
-    width: 111px;
-    height: 111px;
+    width: 5.78vw;
+    height: 11.45vh;
     margin-top: 7vh;
     display: flex;
     justify-content: center;
