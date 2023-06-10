@@ -10,15 +10,15 @@
 }
 
 header{
-    position: sticky;
+    position: fixed;
     display: flex;
     justify-content: space-between;
-    width: calc(100%-20px);
+    width: 100%;
     background: #0F0F0F;
     height: 108px;
     align-items: center;
     padding-inline: 10px;
-
+    z-index: 20;
 }
 
 #logo{
