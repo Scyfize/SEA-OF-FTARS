@@ -150,8 +150,7 @@ header{
 }
 
 #walt{
-    width: 100%;
-    height: auto;
+    transform: scale(2);
 }
 
 #zale{

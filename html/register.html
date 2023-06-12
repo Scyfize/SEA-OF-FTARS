@@ -27,12 +27,41 @@
 
         <div class="register-content">
             <div class="register-left">
+                <form>
+                    Username:
+                    <input type="text" id="username" placeholder="Input your username" required>
+                    <br>
+                    Email:
+                    <input type="email" id="email" placeholder="Input your email" required>
+                    <br>
+        
+                    Country:
+                    <input type="text" id="username" placeholder="Input your country" required>
+                    Password:
+                    <input type="password" id="password" placeholder="Input your password" required>
+                    <br>
+                    Confirm Password:
+                    <input type="password" id="password" placeholder="Confirm password" required>
+                    <br>
+                    <input type="checkbox" name ="" id="agreement" required> I agree to the terms and conditions
+                    <br>    
+                    <span id="error_msg"></span>
+                    <button type="submit" onclick="validate()" class="regb">Register Account</button>
+                </form>
             </div>
             <div class="register-right">
                 </div>
         </div>
 
     </div>
+    <footer>   
 
+        <div class="footer-bg">
+            <div id="footer-title">Sea of FTars</div>
+            <div id="footer-subtitle">©2023 efteStudio, Sea of FTars, AND ANY ASSOSIATED LOGOS ARE TRADEMARKS, SERVICE <br>MARKS, AND/OR REGISTERED TRADEMARKS OF efteStudio
+            </div>
+        </div>
+    </footer>
+    
 </body>
 </html>

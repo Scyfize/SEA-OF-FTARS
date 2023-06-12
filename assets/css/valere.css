@@ -11,7 +11,7 @@
 
 
 header{
-    position: sticky;
+    position: relative;
     display: flex;
     justify-content: space-between;
     width: calc(100%-20px);
@@ -19,6 +19,7 @@ header{
     height: 108px;
     align-items: center;
     padding-inline: 10px;
+    z-index: 200;
 
 }
 
@@ -229,4 +230,491 @@ footer{
     color: #FFFFFF;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+@media (max-width : 1128px){
+    #logo{
+        font-size: 10px;
+    }
+    
+    
+    .navbar-text{
+        font-size: 10px;
+    }
+
+    #profile-picture{
+        width: 60px;
+        height: 60px;
+
+    }
+}
+@media (max-width: 1144px){
+    .navbar-text{
+
+        font-size: 28px;
+    
+    }
+
+    #logo{
+        font-family: 'Rostley PERSONAL USE ONLY';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        color: #00B2EA;
+        text-decoration:none;
+    }
+}
+
+@media only screen and  (max-width: 855px){
+    .navbar-text{
+
+        font-size: 24px;
+    
+    }
+
+    #logo{
+        font-family: 'Rostley PERSONAL USE ONLY';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        color: #00B2EA;
+        text-decoration:none;
+    }
+}
+
+@media only screen and (max-width: 712px){
+    .navbar-text{
+
+        font-size: 20px;
+    
+    }
+
+    #logo{
+        font-family: 'Rostley PERSONAL USE ONLY';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #00B2EA;
+        text-decoration:none;
+    }
+}
+
+@media only screen and  (max-width: 590px){
+    .navbar-text{
+
+        font-size: 15px;
+    
+    }
+
+    #logo{
+        font-family: 'Rostley PERSONAL USE ONLY';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        color: #00B2EA;
+        text-decoration:none;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .navbar-text{
+
+        font-size: 12px;
+    
+    }
+
+    #logo{
+        font-family: 'Rostley PERSONAL USE ONLY';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        color: #00B2EA;
+        text-decoration:none;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .navbar-text{
+
+        font-size: 10px;
+    
+    }
+
+    #logo{
+        font-family: 'Rostley PERSONAL USE ONLY';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        color: #00B2EA;
+        text-decoration:none;
+    }
+}
+
+@media only screen and (max-width:697px){
+
+    
+    
+    
+    #footer-title{
+
+        font-size: 30px;
+    
+
+    }
+    
+    #footer-subtitle{
+
+     
+
+        font-size: 10px;
+      
+ 
+    }
+}
+
+
+
+@media only screen and (max-width:1876px){
+    .upright{
+        position: relative;
+        transform: translateX(9vw) translateY(-15vh);
+    }
+
+    .val-down{
+        transform: translateX(-3vw) translateY(-25vh);
+        font-size: 20px;
+    }
+
+    .val-name{
+        transform: translateX(-4vw) ;
+        font-size: 90px;
+   
+    }
+    
+    .val-title{
+        font-size: 40px;
+        transform: translateX(-4vw) ;
+  
+    }
+}
+
+@media only screen and (max-width:1553px){
+    .upright{
+        position: relative;
+        transform: translateX(9vw) translateY(-10vh);
+    }
+
+    .val-down{
+        transform: translateX(-3vw) translateY(-25vh);
+        font-size: 20px;
+    }
+
+    .val-name{
+        transform: translateX(-4vw) ;
+        font-size: 90px;
+   
+    }
+    
+    .val-title{
+        font-size: 40px;
+        transform: translateX(-4vw) ;
+  
+    }
+}
+
+@media only screen and (max-width:1307px){
+    .upright{
+        position: relative;
+        transform: translateX(5vw) translateY(-10vh);
+    }
+
+    .val-down{
+        transform: translateX(-3vw) translateY(-25vh);
+        font-size: 20px;
+    }
+
+    .val-name{
+        transform: translateX(-4vw) ;
+        font-size: 90px;
+   
+    }
+    
+    .val-title{
+        font-size: 40px;
+        transform: translateX(-4vw) ;
+  
+    }
+}
+
+@media only screen and (max-width:1137px){
+    .upright{
+        position: relative;
+        transform: translateX(2vw) translateY(-10vh);
+    }
+
+    .val-down{
+        transform: translateX(-3vw) translateY(-25vh);
+        font-size: 20px;
+    }
+
+    .val-name{
+        transform: translateX(-4vw) ;
+        font-size: 90px;
+   
+    }
+    
+    .val-title{
+        font-size: 40px;
+        transform: translateX(-4vw) ;
+  
+    }
+}
+
+@media only screen and (max-width:1037px){
+    .upright{
+        position: relative;
+        transform: translateX(2vw) translateY(-10vh);
+    }
+
+    .val-down{
+        transform: translateX(-3vw) translateY(-25vh);
+        font-size: 20px;
+    }
+
+    .val-name{
+        transform: translateX(-4vw) ;
+        font-size: 70px;
+   
+    }
+    
+    .val-title{
+        font-size: 30px;
+        transform: translateX(-4vw) ;
+  
+    }
+}
+
+@media only screen and (max-width:997px){
+    .upright{
+        position: relative;
+        transform: translateX(2vw) translateY(-10vh);
+    }
+
+    .val-down{
+        transform: translateX(-5vw) translateY(-25vh);
+        font-size: 10px;
+    }
+
+    .val-name{
+        transform: translateX(-6vw) ;
+        font-size: 60px;
+   
+    }
+    
+    .val-title{
+        font-size: 20px;
+        transform: translateX(-6vw) ;
+  
+    }
+}
+
+@media only screen and (max-width:699px){
+    .upright{
+        position: absolute;
+        transform: translateX(-40vw) translateY(26vh);
+        
+    }
+
+    .val-down{
+        position: relative;
+        transform: translateX(-5vw) translateY(2vh);
+        font-size: 10px;
+        margin-bottom: 10vh;
+    }
+
+    .val-name{
+        transform: translateX(-6vw) translateY(-10vh) ;
+        font-size: 40px;
+   
+    }
+    
+    .val-title{
+        font-size: 15px;
+        transform: translateX(-6vw) translateY(-10vh);
+  
+    }
+
+    .kotak{
+
+        margin-right: 2vw;
+    }
+    
+    .kotak2{
+
+        margin-right: 2vw;
+    }
+    .footer-bg{
+        display: flex;
+        justify-content: center;
+        
+        width: 100%;
+        height: 300vh;
+        background: #0F0F0F;
+    }
+    #topper{
+        display: flex;
+        list-style-type:none;
+    }
+
+}
+
+@media only screen and (max-width:453px){
+    .upright{
+        position: absolute;
+        transform: translateX(-40vw) translateY(23vh);
+        
+    }
+
+    .val-down{
+        position: relative;
+        transform: translateX(-5vw) translateY(2vh);
+        font-size: 10px;
+        margin-bottom: 10vh;
+    }
+
+    .val-name{
+        transform: translateX(-6vw) translateY(-10vh) ;
+        font-size: 40px;
+   
+    }
+    
+    .val-title{
+        font-size: 15px;
+        transform: translateX(-6vw) translateY(-10vh);
+  
+    }
+
+    .kotak{
+
+        margin-right: 2vw;
+    }
+    
+    .kotak2{
+
+        margin-right: 2vw;
+    }
+    .footer-bg{
+        display: flex;
+        justify-content: center;
+        
+        width: 100%;
+        height: 300vh;
+        background: #0F0F0F;
+    }
+    #topper{
+        display: flex;
+        list-style-type:none;
+    }
+
+}
+
+@media only screen and (max-width:453px){
+    .upright{
+        position: absolute;
+        transform: translateX(-40vw) translateY(23vh);
+        
+    }
+
+    .val-down{
+        position: relative;
+        transform: translateX(-5vw) translateY(2vh);
+        font-size: 10px;
+        margin-bottom: 10vh;
+    }
+
+    .val-name{
+        transform: translateX(-6vw) translateY(-10vh) ;
+        font-size: 40px;
+   
+    }
+    
+    .val-title{
+        font-size: 15px;
+        transform: translateX(-6vw) translateY(-10vh);
+  
+    }
+
+    .kotak{
+
+        margin-right: 2vw;
+    }
+    
+    .kotak2{
+
+        margin-right: 2vw;
+    }
+    .footer-bg{
+        display: flex;
+        justify-content: center;
+        
+        width: 100%;
+        height: 40vh;
+        background: #0F0F0F;
+    }
+    #topper{
+        display: flex;
+        list-style-type:none;
+    }
+
+}
+
+@media only screen and (max-width:373px){
+    .upright{
+        position: absolute;
+        transform: translateX(-40vw) translateY(-11vh);
+        
+    }
+
+    .val-down{
+        position: relative;
+        transform: translateX(-5vw) translateY(2vh);
+        font-size: 10px;
+        margin-bottom: 10vh;
+    }
+
+    .val-name{
+        transform: translateX(-6vw) translateY(-10vh) ;
+        font-size: 40px;
+   
+    }
+    
+    .val-title{
+        font-size: 15px;
+        transform: translateX(-6vw) translateY(-10vh);
+  
+    }
+
+    .kotak{
+
+        margin-right: 2vw;
+    }
+    
+    .kotak2{
+
+        margin-right: 2vw;
+    }
+    .footer-bg{
+        display: flex;
+        justify-content: center;
+        
+        width: 100%;
+        height: 40vh;
+        background: #0F0F0F;
+    }
+    #topper{
+        display: flex;
+        list-style-type:none;
+    }
+
 }

@@ -17,13 +17,12 @@ header{
     background: #0F0F0F;
     height: 108px;
     align-items: center;
-    padding-inline: 10px;
+  
     z-index: 200;
 
 }
 
 #logo{
-
     font-family: 'Rostley PERSONAL USE ONLY';
     font-style: normal;
     font-weight: 400;
@@ -63,6 +62,7 @@ header{
     width: 70px;
     height: 70px;
     border-radius: 70px;
+    margin-right: 5vw;
 }
 .home-background *{
     background: none;
@@ -113,6 +113,16 @@ header{
     align-items: center ;
 }
 
+.install-now{
+    margin-bottom: 15vh;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+
+
 #rectangle{
     align-items: center;
     width: 333.25px;
@@ -153,8 +163,7 @@ header{
 
 .install-text{
     position: absolute;
-    width: 445px;
-    height: 86px;
+
     display: flex;
     justify-content: center;
     text-decoration: none;
@@ -187,9 +196,8 @@ header{
 }
 
 .trailer-text{
-    position: absolute;
-    width: 996px;
-    height: 160px;
+    position: relative;
+
     padding-top: 95px;
     font-family: 'Rostley PERSONAL USE ONLY';
     font-style: normal;
@@ -233,8 +241,7 @@ header{
 
 .features-text{
     position: relative;
-    width: 504px;
-    height: 160px;
+
     padding-top: 95px;
 
     font-family: 'Rostley PERSONAL USE ONLY';
@@ -282,13 +289,6 @@ header{
 }
 
 .rect-a-title{
-    /* width: 433px;
-    height: 160px;
-    display: flex;
-    justify-content: end;
-    position: absolute; */
-    
-    /* padding-top: 125px; */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -301,10 +301,7 @@ header{
 }
 
 .rect-a-subtitle{
-    /* width: 526px;
-    height: 140px; */
     font-family: 'Roboto';
-    /* padding-right: 32px; */
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -348,7 +345,7 @@ header{
     font-weight: 900;
     font-size: 20px;
     padding-top: 115px;
-    padding-bottom: 24;
+    padding-bottom: 24px;
     color: #FFFFFF;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -368,5 +365,749 @@ header{
         width: 60px;
         height: 60px;
 
+    }
+}
+@media (max-width: 1144px){
+    .navbar-text{
+
+        font-size: 28px;
+    
+    }
+
+    #logo{
+        font-family: 'Rostley PERSONAL USE ONLY';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        color: #00B2EA;
+        text-decoration:none;
+    }
+}
+
+@media only screen and  (max-width: 855px){
+    .navbar-text{
+
+        font-size: 24px;
+    
+    }
+
+    #logo{
+        font-family: 'Rostley PERSONAL USE ONLY';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        color: #00B2EA;
+        text-decoration:none;
+    }
+}
+
+@media only screen and (max-width: 712px){
+    .navbar-text{
+
+        font-size: 20px;
+    
+    }
+
+    #logo{
+        font-family: 'Rostley PERSONAL USE ONLY';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #00B2EA;
+        text-decoration:none;
+    }
+}
+
+@media only screen and  (max-width: 590px){
+    .navbar-text{
+
+        font-size: 15px;
+    
+    }
+
+    #logo{
+        font-family: 'Rostley PERSONAL USE ONLY';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        color: #00B2EA;
+        text-decoration:none;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .navbar-text{
+
+        font-size: 12px;
+    
+    }
+
+    #logo{
+        font-family: 'Rostley PERSONAL USE ONLY';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        color: #00B2EA;
+        text-decoration:none;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .navbar-text{
+
+        font-size: 10px;
+    
+    }
+
+    #logo{
+        font-family: 'Rostley PERSONAL USE ONLY';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        color: #00B2EA;
+        text-decoration:none;
+    }
+}
+
+@media only screen and (max-width: 784px){
+   
+    #subtitle{
+        font-size: 30px;
+    }
+    
+    #title{
+
+        font-size: 100px;
+    
+        color: #00B2EA;
+    
+    }
+    
+    #rectangle{
+
+        width: 300px;
+        height: 62px;
+
+    }
+
+    
+    .white-outline{
+        position: absolute;
+        width: 320px;
+        height: 80px;
+    }
+
+    .play-text{
+
+        font-size: 30px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 784px){
+   
+    #subtitle{
+        font-size: 24px;
+    }
+    
+    #title{
+
+        font-size: 80px;
+    
+        color: #00B2EA;
+    
+    }
+    
+    #rectangle{
+
+        width: 250px;
+        height: 50px;
+
+    }
+
+    
+    .white-outline{
+        position: absolute;
+        width: 270px;
+        height: 70px;
+    }
+
+    .play-text{
+
+        font-size: 30px;
+    
+    }
+
+}
+
+
+@media only screen and (max-width: 520px){
+   
+    #subtitle{
+        font-size: 20px;
+    }
+    
+    #title{
+
+        font-size: 70px;
+    
+        color: #00B2EA;
+    
+    }
+    
+    #rectangle{
+
+        width: 200px;
+        height: 45px;
+
+    }
+
+    
+    .white-outline{
+        position: absolute;
+        width: 220px;
+        height: 70px;
+    }
+
+    .play-text{
+
+        font-size: 30px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 444px){
+   
+    #subtitle{
+        font-size: 15px;
+    }
+    
+    #title{
+
+        font-size: 55px;
+    
+        color: #00B2EA;
+    
+    }
+    
+    #rectangle{
+
+        width: 200px;
+        height: 45px;
+
+    }
+
+    
+    .white-outline{
+        position: absolute;
+        width: 220px;
+        height: 70px;
+    }
+
+    .play-text{
+
+        font-size: 30px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 360px){
+   
+    #subtitle{
+        font-size: 10px;
+    }
+    
+    #title{
+
+        font-size: 47px;
+    
+        color: #00B2EA;
+    
+    }
+    
+    #rectangle{
+
+        width: 200px;
+        height: 45px;
+
+    }
+
+    
+    .white-outline{
+        position: absolute;
+        width: 220px;
+        height: 70px;
+    }
+
+    .play-text{
+
+        font-size: 30px;
+    
+    }
+
+}
+
+
+@media only screen and (max-width: 1033px){
+
+    .trailer-text{
+        font-size: 90px;
+    }
+    
+}
+
+@media only screen and (max-width: 771px){
+
+    .trailer-text{
+        font-size: 80px;
+    }
+    
+}
+
+@media only screen and (max-width: 683px){
+
+    .trailer-text{
+        font-size: 70px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+
+    .trailer-text{
+        font-size: 60px;
+    }
+    
+}
+
+@media only screen and (max-width: 529px){
+
+    .trailer-text{
+        font-size: 50px;
+    }
+    
+}
+
+@media only screen and (max-width: 443px){
+
+    .trailer-text{
+        font-size: 40px;
+    }
+    
+}
+
+@media only screen and (max-width: 365px){
+
+    .trailer-text{
+        font-size: 30px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 551px){
+
+    .features-text{
+        display: flex;
+        justify-content: center;
+        font-size: 100px;
+    }
+    
+}
+
+@media only screen and (max-width: 453px){
+
+    .features-text{
+        display: flex;
+        justify-content: center;
+        font-size: 80px;
+    }
+    
+}
+
+@media only screen and (max-width: 355px){
+
+    .features-text{
+        display: flex;
+        justify-content: center;
+        font-size: 60px;
+    }
+    
+}
+
+@media only screen and (max-width: 1325px){
+
+    .rect-a-title{
+        font-size: 50px;
+        color: #FFFFFF;
+    
+    }
+    
+    .rect-a-subtitle{
+        font-size: 18px;
+        text-align: justify;
+    }
+    
+    .features-image{
+        margin-left: 3vw;
+        margin-right: 3vw;
+        transform: scale(1);
+    }
+
+    
+}
+
+@media only screen and (max-width: 1281px){
+
+    .rect-a-title{
+        font-size: 45px;
+        color: #FFFFFF;
+    
+    }
+    
+    .rect-a-subtitle{
+        font-size: 15px;
+        text-align: justify;
+    }
+    
+    .features-image{
+        margin-left: 3vw;
+        margin-right: 3vw;
+        transform: scale(0.9);
+    }
+
+    
+}
+
+@media only screen and (max-width: 1021px){
+
+    .rect-a-title{
+        font-size: 35px;
+        color: #FFFFFF;
+    
+    }
+    
+    .rect-a-subtitle{
+        font-size: 12px;
+        text-align: justify;
+    }
+    
+    .features-image{
+        margin-left: 3vw;
+        margin-right: 3vw;
+        transform: scale(0.9);
+    }
+
+    
+}
+
+@media only screen and (max-width: 964px){
+
+    .rect-a-title{
+        font-size: 35px;
+        color: #FFFFFF;
+    
+    }
+    
+    .rect-a-subtitle{
+        font-size: 12px;
+        text-align: justify;
+    }
+    
+    .features-image{
+        margin-left: 3vw;
+        margin-right: 3vw;
+        transform: scale(0.9);
+    }
+
+    .rect-a{
+        width: 70vw;
+        height: 100vh;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 851px){
+
+    .rect-a-title{
+        font-size: 30px;
+        color: #FFFFFF;
+    
+    }
+    
+    .rect-a-subtitle{
+        font-size: 10px;
+        text-align: justify;
+    }
+    
+    .features-image{
+        margin-left: 3vw;
+        margin-right: 3vw;
+        transform: scale(0.7);
+    }
+
+    .rect-a{
+        width: 70vw;
+        height: 100vh;
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (max-width:699px){
+
+    .left-rect-a{
+        transform: scale(0.7);
+    }
+
+}
+
+@media only screen and (max-width:483px){
+
+    .left-rect-a{
+        transform: scale(0.5);
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 661px){
+
+    .rect-a-title{
+        font-size: 20px;
+        color: #FFFFFF;
+        
+    }
+    
+    .rect-a-subtitle{
+        font-size: 8px;
+        text-align: justify;
+    }
+    
+    .features-image{
+        margin-left: 3vw;
+        margin-right: 3vw;
+        transform: scale(0.6);
+    }
+
+    .rect-a{
+        width: 70vw;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .right-rect-a{
+        padding-left: 6.25vw;
+    }
+}
+
+@media only screen and (max-width: 567px){
+
+    .rect-a-title{
+        font-size: 20px;
+        color: #FFFFFF;
+        
+    }
+    
+    .rect-a-subtitle{
+        font-size: 8px;
+        text-align: justify;
+    }
+    
+    .features-image{
+        margin-left: 3vw;
+        margin-right: 3vw;
+        transform: scale(0.5);
+    }
+
+    .rect-a{
+        width: 70vw;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .right-rect-a{
+        padding-left: 6.25vw;
+    }
+}
+
+@media only screen and (max-width: 479px){
+
+    .rect-a-title{
+        font-size: 20px;
+        color: #FFFFFF;
+        
+    }
+    
+    .rect-a-subtitle{
+        font-size: 8px;
+        text-align: justify;
+    }
+    
+    .features-image{
+        margin-left: 3vw;
+        margin-right: 3vw;
+        transform: scale(0.4);
+    }
+
+    .rect-a{
+        width: 70vw;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .right-rect-a{
+        padding-left: 6.25vw;
+    }
+}
+
+@media only screen and (max-width: 371px){
+
+    .rect-a-title{
+        font-size: 20px;
+        color: #FFFFFF;
+        
+    }
+    
+    .rect-a-subtitle{
+        font-size: 8px;
+        text-align: justify;
+    }
+    
+    .features-image{
+        margin-left: 3vw;
+        margin-right: 3vw;
+        transform: scale(0.3);
+    }
+
+    .rect-a{
+        width: 70vw;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .right-rect-a{
+        padding-left: 6.25vw;
+    }
+
+
+}
+
+@media only screen and (max-width: 749px){
+
+    #rectangle-big{
+        position: absolute;
+        width: 640px;
+        height: 165px;
+    }
+}
+
+@media only screen and (max-width: 671px){
+
+    #rectangle-big{
+        position: absolute;
+        width: 600px;
+        height: 165px;
+    }
+}
+
+@media only screen and (max-width: 629px){
+
+    #rectangle-big{
+        position: absolute;
+        width: 500px;
+        height: 165px;
+    }
+}
+
+@media only screen and (max-width: 527px){
+
+    #rectangle-big{
+        position: absolute;
+        width: 450px;
+        height: 165px;
+    }
+}
+
+@media only screen and (max-width: 477px){
+
+    #rectangle-big{
+        position: absolute;
+        width: 400px;
+        height: 165px;
+    }
+
+    .install-text{
+
+        font-size: 40px;
+
+    
+    }
+}
+
+@media only screen and (max-width: 435px){
+
+    #rectangle-big{
+        position: absolute;
+        width: 350px;
+        height: 165px;
+    }
+
+    .install-text{
+
+        font-size: 40px;
+
+    
+    }
+}
+
+@media only screen and (max-width: 389px){
+
+    #rectangle-big{
+        position: absolute;
+        width: 300px;
+        height: 165px;
+    }
+
+    .install-text{
+
+        font-size: 40px;
+
+    
+    }
+}
+
+@media only screen and (max-width:697px){
+
+    
+    
+    
+    #footer-title{
+
+        font-size: 30px;
+    
+
+    }
+    
+    #footer-subtitle{
+
+     
+
+        font-size: 10px;
+      
+ 
     }
 }
