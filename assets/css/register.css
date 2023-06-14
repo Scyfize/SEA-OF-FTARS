@@ -67,7 +67,7 @@ header{
 
 .register-bg{
     width: 100%;
-    height: 56.40625vw;
+    height: auto;
     
     display: flex;
     justify-content: center;
@@ -80,6 +80,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
 }
 
 
@@ -148,12 +150,15 @@ form {
     opacity: 0.7;
 }
 
+
+
 .footer-bg{
+ 
     display: flex;
     justify-content: center;
 
     width: 100%;
-    height: 208px;
+    height: 40vh;
     background: #0F0F0F;
 }
 
@@ -324,237 +329,36 @@ form {
     }
 }
 
-@media (max-width:1374px){
 
-        form{
-            font-size: 15px;
-        }
+@media only screen and (max-width:617px){
+    .register-right{
+        width: 0vw;
+        height: 0vh;
     }
 
-@media (max-width:1033px){
-    form{
-        font-size: 10px;
-        }
-        .register-content{
-            margin-top: 10vh;
-        }
-        
-    
- }
-
- @media (max-width:936px){
-    form{
-        font-size: 10px;
-        }
-        .register-content{
-            margin-top: 15vh;
-        }
-        
-    
- }
-
- @media (max-width:892px){
-    form{
-        font-size: 10px;
-        }
-        .register-content{
-            margin-top: 20vh;
-        }
-        
-    
- }
-
- @media (max-width:816px){
-    form{
-        font-size: 10px;
-        }
-        .register-content{
-            margin-top: 20vh;
-        }
-        
-        .register-right{
-
-            background-image: url(../css/registerart.png);
-            width: 0vw;
-            height: 0vh;
-            background-position: center,top;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-
-        .register-content{
-            transform: scale(0.9);
-        }
- }
-
- @media (max-width:781px){
-    form{
-        font-size: 10px;
-        }
-        .register-content{
-            margin-top: 20vh;
-        }
-        
-        .register-right{
-
-            background-image: url(../css/registerart.png);
-            width: 0vw;
-            height: 0vh;
-            background-position: center,top;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-
-        .register-content{
-            transform: scale(0.8);
-        }
- }
-
-@media (max-width:761px){
-    form{
-        font-size: 10px;
-        }
-        .register-content{
-            margin-top: 20vh;
-        }
-        
-        .register-right{
-
-            background-image: url(../css/registerart.png);
-            width: 0vw;
-            height: 0vh;
-            background-position: center,top;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-
-        .register-content{
-            transform: scale(0.7);
-        }
-        .register-left{
+    .register-left{
   
-            width: 100vw;
-            height: 73vh;
-        
-        
-            background: #FFFFFF;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-
-        .regb{
-            font-size: 19px;
-          }
-        
-
- }
-@media (max-width:661px){
-    form{
-        font-size: 10px;
-        }
-        .register-content{
-            margin-top: 20vh;
-        }
-        
-        .register-right{
-
-            background-image: url(../css/registerart.png);
-            width: 0vw;
-            height: 0vh;
-            background-position: center,top;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-
-        .register-content{
-            transform: scale(0.5);
-        }
-        .register-left{
-  
-            width: 100vw;
-            height: 73vh;
-        
-        
-            background: #FFFFFF;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-
-        .regb{
-            font-size: 15px;
-          }
-        
-
- }
-
-@media (max-width:541px){
-    form{
-        font-size: 10px;
-        }
-        .register-content{
-            margin-top: 20vh;
-        }
-        
-        .register-right{
-
-            background-image: url(../css/registerart.png);
-            width: 0vw;
-            height: 0vh;
-            background-position: center,top;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-
-        .register-content{
-            transform: scale(0.5);
-        }
-        .register-left{
-  
-            width: 100vw;
-            height: 73vh;
-        
-        
-            background: #FFFFFF;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-
-        .regb{
-            font-size: 15px;
-          }
-        
-
- }
-
-@media (max-width:537px){
-    form{
-        font-size: 20px;
-        }
-        .register-content{
-            margin-top: 20vh;
-        }
-        
-        .register-right{
-
-            background-image: url(../css/registerart.png);
-            width: 0vw;
-            height: 0vh;
-            background-position: center,top;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-
-        .register-content{
-            transform: scale(0.2);
-        }
-        .register-left{
-  
-            width: 400vw;
-            height: 100vh;
-        
-        
-            background: #FFFFFF;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-
-        .regb{
-            font-size: 15px;
-          }
+        width: 50vw;
+        height: 73vh;
     
- }
-
-
-
-
+    
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .regb{
+        position: absolute;
+        width: 40vw;
+        height: 6.4vh;
+        border: none;
+        background: linear-gradient(179.11deg, #00A3FF 0.76%, rgba(0, 163, 255, 0) 291.47%);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        opacity: 1;
+        margin-top: 1vh;
+        color: #FFFFFF;
+      }
+}
 
